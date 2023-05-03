@@ -166,11 +166,28 @@ li:hover {
   font-family: 'Kosugi Maru', sans-serif;
 }
 
+@media only screen and (min-width: 600px) {
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+
+}}
+
+@media only screen and (min-width: 400px){
 .formulario1 {
   display: grid;
   grid-column: 2 / 3;
   grid-row: 1;
-}
+}}
+
+@media only screen and (min-width: 400px){
+.formulario2 {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  font-family: 'Kosugi Maru', sans-serif;
+}}
 
 form {
   border: 2px solid #000000;
